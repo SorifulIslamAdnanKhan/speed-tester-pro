@@ -15,22 +15,83 @@
         <section>
             <article>
                 <h2>1. What are the differencs betwwen Local Storage vs Session Storage?</h2>
-                <p></p>
+                <p><b>Local Storage</b></p>
+                <p>
+                   a. The keys and the values stored with localStorage are always in the UTF-16 string format.
+                    <br> <br>
+                   b. Local storage maintains data across all instances of a site, whether they're in different tabs or windows. <br> <br>
+                   c. It is also permanent, so the data won't disappear when you close your browser. <br>
+                </p>
+                <p><b>Session Storage</b></p>
+                <p>
+                   a. Opening several tabs/windows with the same URL creates sessionStorage for each tab/window.
+                    <br>
+                    <br>
+                   b. Duplicating a tab copies the tab's sessionStorage into the new tab.
+                    <br>
+                    <br>
+                   c. Closing a tab/window ends the session and clears objects in sessionStorage.
+                </p>
             </article>
             <br>
             <article>
-                <h2>2. What are the differencs betwwen Global Scope vs Block Scope?</h2>
-                <p></p>
+                <h2>2. What are the difference between Global Scope vs Block Scope?</h2>
+                <p><b>Global Scope</b></p>
+                    <p>
+                    a. A variable exists inside or outside a block is called a Global Scope variable.
+                    <br>
+                    <br>
+                    b. Global Scope variable can be declared outside all functions or even curly braces ({}).
+                    <br>
+                    <br>
+                    c. The global variables can be accessed by any line of code in the program, including inside blocks.
+                    </p>
+               <p><b>Block Scope</b></p>
+                <p>
+                    a. The block scope can be defined as the scope of the variables inside the curly brackets {}.
+                    <br>
+                    <br>
+                    b. The curly brackets can be of loops, or conditional statements, or something else.
+                    <br>
+                    <br>
+                    c. The valiable of a block scope can be accessable only within the curly brackets {}.
+               </p>
             </article>
             <br>
             <article>
                 <h2>3. How JavaScript Event Loop works?</h2>
-                <p></p>
+                <p><b>Event Loop</b></p>
+                <p>
+                    a. JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and
+                        processing events, and executing queued sub-tasks.
+                    <br>
+                    <br>
+                    b. The event loop is a constantly running process that monitors both the callback queue and the call stack.
+                    <br>
+                    <br>
+                    c. If the call stack is not empty, the event loop waits until it is empty and places the next function from the callback queue to the call stack.
+                    <br>
+                    <br>
+                    d. If the callback queue is empty, nothing will happen.
+                </p>
             </article>
             <br>
             <article>
-                <h2>4. What are ways of getting get Undefined in JavaScript?</h2>
-                <p></p>
+                <h2>4. What are ways of getting Undefined in JavaScript?</h2>
+                <p>
+                    a. A variable that has not been assigned a value is of type undefined.
+                    <br>
+                    <br>
+                    b. A function returns undefined if a value was not returned.
+                    <br>
+                    <br>
+                    c. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value.
+                    <br>
+                    <br>
+                    d. If you pass less arguments in function call then, that parameter will have undefined value.
+                    <br>
+                    <br>
+                </p>
             </article>
         </section>
     </main>

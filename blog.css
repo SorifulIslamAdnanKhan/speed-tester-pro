@@ -9,5 +9,7 @@ main section{
     width: 50%;
     margin: 0 auto;
 }
-
+p{
+    font-size: 18px;
+}
 /* blog styles end*/
