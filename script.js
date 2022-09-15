@@ -57,7 +57,6 @@ const typeController = (e) => {
 
 const validate = (key) => {
   if (key === questionText[userText.length - 1]) {
-   // console.log(key);
     return true;
   }
   return false;
@@ -88,8 +87,7 @@ const gameOver = () => {
     <p>You made <span class="bold red">${errorCount}</span> mistakes</p>
     <button onclick="closeModal()">Close</button>
   `;
-  console.log(errorCount);
-
+  
   addHistory(questionText, timeTaken, errorCount);
 
   // restart everything
