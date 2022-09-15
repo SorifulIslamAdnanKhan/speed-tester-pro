@@ -1,0 +1,13 @@
+/* blog styles start*/
+
+.blog-heading {
+    text-align: center;
+    padding: 10px;
+}
+
+main section{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* blog styles end*/
